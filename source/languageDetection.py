@@ -90,7 +90,7 @@ langIDToScriptID = OrderedDict([
 	("sr" , ("Latin" , "Cyrillic" , "Number" ) ),
 	("ja" , ("Han", "Hiragana", "Katakana", "FullWidthNumber" , "Number" ) ), 
 	("ko" , ("Han", "Hiragana", "Katakana", "Hangul" , "FullWidthNumber" , "Number" ) ), 
-	("zh" , ("Han", "Hiragana", "Katakana", "FullWidthNumber"  , "Number" ) ), 
+	("zh" , ("Han", "FullWidthNumber"  , "Number" ) ), 
 ])
 
 def getLanguagesWithDescriptions(ignoreLanguages=None):
